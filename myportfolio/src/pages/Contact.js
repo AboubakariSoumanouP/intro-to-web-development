@@ -2,7 +2,27 @@ import React from 'react';
 
 function Contact(props) {
     return (
-        <h1>Contact</h1>
+        <div className="contact-container-wrapper">
+            <div className="contact-container">
+               <h1 className="header">Get in Touch</h1>
+               <div className="info-container"> 
+                   <p><span>Email:</span>soumabakari@gmail.com</p>
+                   <p><span>Phone:</span>347-406-3662</p>
+               </div> 
+               <form className="form">
+                   <h3 className="header"> Send Me a Message</h3>
+                   <div>
+                       <input placeholder="Name"/>
+                       <br/>
+                       <input placeholder="Email"/>
+                       <br/>
+                       <textarea rows="10" cols="50" placeholder="Send me a kind message" w></textarea>
+                   </div>
+                   <button>Send Message</button>
+               </form>
+            </div>
+
+        </div>
     )
 }
 

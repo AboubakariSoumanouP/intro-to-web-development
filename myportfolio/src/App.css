@@ -29,3 +29,41 @@
   display: flex;
   justify-content: center;
 }
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.header{
+  text-align: center;
+}
+
+.form, .info-container{
+  width: 30%;
+  margin: auto;
+}
+
+.info-container {
+  text-align: center;
+}
+
+.form {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.form input, button, textarea{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+.form input{
+  padding: 5px;
+}
+
