@@ -7,10 +7,18 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
+import ProjectSubPage from './pages/ProjectSubPage';
 
 class App extends React.Component {
+
+ 
+
    
   render() {
+    const  ProjectSubPageComponent = (projectInfo) => {
+      return <ProjectSubPage projectInfo={projectInfo}/>
+    }
+
     return (
      <Router>
        <NavBar />
@@ -19,6 +27,7 @@ class App extends React.Component {
          <Route exact path='/aboutMe' component={About} />
          <Route exact path='/projects' component={Project} />
          <Route exact path='/contactMe' component={Contact} />
+         <Route exact path='/projectSubPage' component={ProjectSubPageComponent} />
        </Switch>
      </Router>
     )
