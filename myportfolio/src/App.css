@@ -2,6 +2,10 @@
   display: flex;
   list-style-type: none;
   justify-content: center;
+  margin: 2rem auto;
+  border-bottom: 3px solid black;
+  padding-bottom: 1rem;
+  width: 35%;
 }
 
 .navbar li {
@@ -17,7 +21,7 @@
 }
 
 .home-component img{
-   width: 60%;
+   width: 50%;
    border-radius: 50%;
 }
 
@@ -34,7 +38,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 90%;
+  width: 80%;
   margin: 2rem auto;
 }
 
@@ -68,13 +72,13 @@
 }
 
 .about-container{
-  width: 80%;
+  width: 40%;
   margin: auto;
   text-align: center;
 }
 
 .project-container {
-  width: 80%;
+  width: 40%;
   margin: auto;
   padding-top: 1rem;
 }
@@ -97,4 +101,19 @@
 
 .view-project-btn{
   text-align: right;
+}
+
+.navbar a, .project-container a{
+    color: black;
+    text-decoration: none;
+}
+
+.project-sub-page-container{
+  width: 40%;
+  margin: auto;
+}
+
+.about-paragraph{
+  margin-top: 2rem;
+  text-align: justify;
 }

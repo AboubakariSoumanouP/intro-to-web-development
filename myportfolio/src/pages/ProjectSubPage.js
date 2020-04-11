@@ -3,11 +3,11 @@ import React from "react";
 class  ProjectSubPage extends React.Component {
 
   render() {
-      console.log(this.props)
+      
     return (
 
-        <div>
-          <h1>{this.props.projectInfo.location.state.projectInfo.name}</h1>
+        <div className='project-sub-page-container'>
+          <h1 className='header'>{this.props.projectInfo.location.state.projectInfo.name}</h1>
           <div>
             <div>
               <p>
