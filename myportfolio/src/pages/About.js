@@ -5,7 +5,7 @@ function About(props) {
     <div className="about-container">
       <div>
         <h1>About Me</h1>
-        <a href="Resume.pdf" target="_blank">
+        <a href="Resume.pdf" target="_blank" download>
           Download Resume
         </a>
       </div>
