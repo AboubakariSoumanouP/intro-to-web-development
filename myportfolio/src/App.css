@@ -125,3 +125,7 @@ textarea {
   margin-top: 2rem;
   text-align: justify;
 }
+
+a.active-page {
+  text-decoration: underline;
+}

@@ -4,17 +4,25 @@ import { Link } from "react-router-dom";
 function NavBar(props) {
   return (
     <ul className="navbar">
-      <li>
-        <Link to="/">Home</Link>
+      <li onClick={(e) => props.changePage("Home")}>
+        <Link className='active-page' id="home-nav-link" to="/">
+          Home
+        </Link>
       </li>
-      <li>
-        <Link to="/aboutMe">About Me</Link>
+      <li onClick={(e) => props.changePage("About")}>
+        <Link id="about-nav-link" to="/aboutMe">
+          About Me
+        </Link>
       </li>
-      <li>
-        <Link to="/projects">Projects</Link>
+      <li onClick={(e) => props.changePage("Projects")}>
+        <Link id="project-nav-link" to="/projects">
+          Projects
+        </Link>
       </li>
-      <li>
-        <Link to="/contactMe">Contact Me</Link>
+      <li onClick={(e) => props.changePage("Contact")}>
+        <Link id="contact-nav-link" to="/contactMe">
+          Contact Me
+        </Link>
       </li>
     </ul>
   );

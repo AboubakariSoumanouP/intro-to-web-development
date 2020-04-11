@@ -26,7 +26,6 @@ function Contact(props) {
               rows="10"
               cols="50"
               placeholder="Send me a kind message"
-              w
             ></textarea>
           </div>
           <button>Send Message</button>
