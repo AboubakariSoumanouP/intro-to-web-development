@@ -4,10 +4,10 @@ function Contact(props) {
     return (
         <div className="contact-container-wrapper">
             <div className="contact-container">
-               <h1 className="header">Get in Touch</h1>
+               <h1 className="header">Get In Touch</h1>
                <div className="info-container"> 
-                   <p><span>Email:</span>soumabakari@gmail.com</p>
-                   <p><span>Phone:</span>347-406-3662</p>
+                   <p><span>Email:</span><span>soumabakari@gmail.com</span></p>
+                   <p><span>Phone:</span><span>347-406-3662</span></p>
                </div> 
                <form className="form">
                    <h3 className="header"> Send Me a Message</h3>

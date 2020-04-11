@@ -49,6 +49,12 @@
 .form, .info-container{
   width: 30%;
   margin: auto;
+  text-align: left !important;
+}
+
+.info-container p {
+  display: flex;
+  justify-content: space-between;
 }
 
 .info-container {
