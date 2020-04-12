@@ -17,7 +17,7 @@ class ProjectSubPage extends React.Component {
             </p>
           </div>
           <div>
-            <a href="https://github.com/AboubakariSoumanouP" target="_blank">
+            <a href={this.props.projectInfo.location.state.projectInfo.projectLink} target="_blank">
               GitHub
             </a>
           </div>

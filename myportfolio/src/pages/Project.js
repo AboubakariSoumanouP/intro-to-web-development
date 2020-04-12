@@ -29,7 +29,7 @@ class Project extends React.Component {
             porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
             ante, dapibus in, viverra quis, feugiat a, tellus.`,
 
-      project3: ` Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+      designPad: ` Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
             penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
@@ -49,16 +49,19 @@ class Project extends React.Component {
           <ProjectCard
             name="Connect 4"
             description={projectDescriptions.connect4}
+            link='https://github.com/AboubakariSoumanouP/connect4'
           />
 
           <ProjectCard
             name="Monster"
             description={projectDescriptions.monster}
+            link='https://github.com/AboubakariSoumanouP/Monster-Project'
           />
 
           <ProjectCard
-            name="Project 3"
-            description={projectDescriptions.project3}
+            name="Design Pad"
+            description={projectDescriptions.designPad}
+            link='https://github.com/AboubakariSoumanouP/design-pad'
           />
         </div>
       </div>
